@@ -58,7 +58,7 @@
   <div id="more">      
   </div>
   <div id="footer">
-    <p>Copyright &copy; Vignesh Rajagopalan (1991-2011)</p>
+    <p>Copyright &copy; Vignesh Rajagopalan (1991-present)</p>
   </div>    
 </body>
 </html>
