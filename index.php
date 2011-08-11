@@ -1,7 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!DOCTYPE>
+<html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
   <title>Vignesh Rajagopalan (Aarvay)</title>
   
   <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />   
@@ -10,13 +9,13 @@
   <script>
     function fetchReq(choice){
       if (choice="MORE") {
-        $('#more').html('<img class="loader" align="center" src =images/ajax-loader.gif />');
+        $('#more').html('<img class="loader" src =images/ajax-loader.gif />');
         $.get('ajaxHandler.php',{'type':choice},function(data) {
           $('#more').fadeIn('slow');
           $('#more').html(data);
         });
         $("#More").css("visibility", "hidden");
-        //$("#tabs").show();
+        $("#tabs").show();
       }
     }
   </script> 
@@ -25,23 +24,23 @@
   <div id="header"> 
     <ul>
       <div id="tabs" style="display: none">
-        <li><a href="#"><span>Home</span></a></li>
-        <li><a href="#"><span>What I do(did)</span></a></li>
-        <li><a href="#"><span>Check 'em out!</span></a></li>
+        <li><a href="http://blog.aarvay.in"><span>Labs</span></a></li>
+        <li><a href="pwi/"><span>{PWI}</span></a></li>
       </div>
-      <li><a id="More" onclick=fetchReq("MORE");><span>Show More</span></a></li>
+      <li><a href="#" id="More" onclick=fetchReq("MORE");><span>See More</span></a></li>
     </ul>
   </div>
   <div id="about">
     <div id="story">
       <h1>Vignesh Rajagopalan</h1>
-      <h2>Programmer / Web-Developer / Mrudangam Artist</h2>
-      <p>I am a <strong>student</strong> by profession, and a <strong>hacker</strong> by passion. I love startups and I mostly fall under the category of <span>"Builder of Stuff"</span>. I currently author code at <a href="http://campuspry.com">Campuspry</a> and <a href="http://polarizd.com">Polarizd</a>. I am a <strong>Mrudangam Artiste</strong> too.</p>
+      <h2>Programmer / Developer / Mrudangam Artist</h2>
+      <p>I am a <strong>student</strong> by profession, and a <strong>hacker</strong> by passion. I love startups and mostly fall under the category of <span>"Builder of Stuff"</span>. I currently work for <a class="none" href="http://campuspry.com">Campuspry</a>. I am a <strong>Mrudangam Artist</strong> too.</p>
     </div>
     <ul id="contact">
-      <li><span>Phone</span> <strong>(+91) 98849-60659</strong></li>
-      <li><span>Website</span> <strong><a href="http://aarvay.in">aarvay.in</a></strong></li>
+      <li><span>Phone</span> <strong><span class="phone">+91 9884 960 659</span></strong></li>
+      <li><span>Handle</span> <strong><a href="http://aarvay.in">aarvay</a></strong></li>
       <li><span>Blog</span> <strong><a href="http://blog.aarvay.in">Aarvay Labs</a></strong></li>
+      <li><span>Resume</span> <strong><a href="resume.pdf">PDF</a> (or) <a href="resume.html">HTML</a></strong></li>
       <li><span>Email</span> <strong>vignesh@campuspry.com</strong></li>
       <li>
         <div class="social">

@@ -1,11 +1,6 @@
-/* @group basics */
-
 * {
   margin: 0;
   padding: 0;
-}
-
-html, body {
 }
 
 body {
@@ -50,16 +45,21 @@ a:link, a:visited {
   text-decoration: none;
 }
 
+a.none{
+	text-decoration: none;
+	font-weight: bold;
+	color: #848484;
+}
+
+a.none:link:hover, a.none:visited:hover{
+	text-decoration: none;
+	color: #000;
+}
+
 a:link:hover, a:visited:hover {
   text-decoration: underline;
   color: #000;
 }
-
-
-
-/* @end */
-
-/* @group header */
 
 #header {
   height: 50px;
@@ -90,6 +90,10 @@ a:link:hover, a:visited:hover {
   padding-right: 10px;
 }
 
+#header #More {
+  cursor: pointer;
+}
+
 #header ul li a {
   line-height: 24px;
   font-size: 12px;
@@ -115,10 +119,6 @@ a:link:hover, a:visited:hover {
   padding-right: 10px;
 }
 
-/* @end */
-
-/* @group about */
-
 #about {
   width: 950px;
   padding: 80px 0 59px;
@@ -139,8 +139,6 @@ a:link:hover, a:visited:hover {
   margin-bottom: 14px;
 }
 
-/* --- */
-
 #story {
   font-size: 18px;
   line-height: 30px;
@@ -157,8 +155,6 @@ a:link:hover, a:visited:hover {
   width: 190px;
   float: left;
 }
-
-/* @group contact */
 
 #contact {
   width: 230px;
@@ -183,6 +179,10 @@ a:link:hover, a:visited:hover {
   float: left;
 }
 
+#contact li span.phone {
+	font-family: Times, serif;
+}
+
 #contact li strong {
   float: right;
   text-align: right;
@@ -191,15 +191,11 @@ a:link:hover, a:visited:hover {
   font-style: normal;
 }
 
-
-
-/* @end */
-
-
-
-/* @end */
-
-/* @group section */
+img.loader {
+	display: block;
+	width: 310px;
+	margin: 0 auto;
+}
 
 .section {
   width: 950px;
@@ -251,12 +247,6 @@ a:link:hover, a:visited:hover {
   width: 510px;
 }
 
-
-
-/* @end */
-
-/* @group small */
-
 body.small {
 }
 
@@ -290,8 +280,6 @@ body.small #about #picture {
   right: 0;
 }
 
-/* --- */
-
 body.small .section {
   width: 750px;
 }
@@ -300,18 +288,8 @@ body.small .section .item {
   width: 510px;
 }
 
-
-
-/* @end */
-
-/* @group footer */
-
 #footer {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-
-
-
-/* @end */

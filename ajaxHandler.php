@@ -10,24 +10,8 @@ $more = '
           <p>
             Worked on the core online portal. Made it more viral by adding few usecases. 
             Wrote a Facebook App to socialize the platform and an API to support interactions between the Platform and the app.
-            Wrote a fully customized Parser to scrape a source and API(se) the output into a neat JSON object.
+            Wrote a fully customized Parser to scrape a source and API(ze) the output into a neat JSON object.
           </p>
-        </div>
-      </div>
-      <div class="item">
-        <h3>Polarizd</h3>
-        <h4>Co-Founder</h4>
-        <div class="date">2011 - current</div>
-        <div class="description">
-          <p>I work on the development of the core social platform of Polarizd optimized for photo-sharing.</p>
-        </div>
-      </div>
-      <div class="item">
-        <h3>Campuspry</h3>
-        <h4>Co-Founder</h4>
-        <div class="date">2011 - current</div>
-        <div class="description">
-          <p>I work on the social platform.</p>
         </div>
       </div>
       <div class="item">
@@ -42,7 +26,7 @@ $more = '
   <div class="section">
     <h2>Education</h2>
     <div class="item">
-        <h3>SASTRA University, IN</h3>
+        <h3><a href="http://sastra.edu">SASTRA University, IN</a></h3>
         <h4>Computer Science and Engineering</h4>
         <div class="date">2009 - 2013</div>
         <div class="description">
@@ -50,7 +34,7 @@ $more = '
         </div>
       </div>
       <div class="item">
-        <h3>P.S. Senior Secondary School</h3>
+        <h3><a href="http://pssenior.org">P.S. Senior Secondary School</a></h3>
         <h4>General Schooling/High School</h4>
         <div class="date">1994 - 2009</div>
         <div class="description">
@@ -92,11 +76,9 @@ $more = '
       </div>
     </div>
 
-        ';        
+        ';              
   $type = $_REQUEST['type'];
   if ($type == "MORE"){
-    echo $more;
-  } elseif ($type == "WHAT"){
-    echo $what;  
+    echo $more; 
   }
 ?>
