@@ -18,13 +18,26 @@
         $("#tabs").show();
       }
     }
-  </script> 
+  </script>
+	<script type="text/javascript">
+
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-24115030-2']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+		  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+
+	</script> 
 </head>
 <body>
   <div id="header"> 
     <ul>
       <div id="tabs" style="display: none">
-        <li><a href="http://blog.aarvay.in"><span>Labs</span></a></li>
+        <li><a href="http://blog.aarvay.in"><span>Blog</span></a></li>
         <li><a href="pwi/"><span>{PWI}</span></a></li>
       </div>
       <li><a href="#" id="More" onclick=fetchReq("MORE");><span>See More</span></a></li>
@@ -33,14 +46,15 @@
   <div id="about">
     <div id="story">
       <h1>Vignesh Rajagopalan</h1>
-      <h2>Programmer / Developer / Mrudangam Artist</h2>
-      <p>I am a <strong>student</strong> by profession, and a <strong>hacker</strong> by passion. I love startups and mostly fall under the category of <span>"Builder of Stuff"</span>. I currently work for <a class="none" href="http://campuspry.com">Campuspry</a>. I am a <strong>Mrudangam Artist</strong> too.</p>
+      <h2>-- Programmer / Developer / Mrudangam Artist</h2>
+      <p>I am a <strong>student</strong> by profession, and a <strong>hacker</strong> by passion. I love startups and mostly fall under the category of <span>"Builder of Stuff"</span>. 
+         I co-founded <a class="none" href="http://campuspry.com">Campuspry Labs</a>. I am a <strong>Mrudangam Artist</strong> too.</p>
     </div>
     <ul id="contact">
-      <li><span>Phone</span> <strong><span class="phone">+91 9884 960 659</span></strong></li>
+      <li><span>Phone</span> <strong><span class="phone">+91 9884-960-659</span></strong></li>
       <li><span>Handle</span> <strong><a href="http://aarvay.in">aarvay</a></strong></li>
-      <li><span>Blog</span> <strong><a href="http://blog.aarvay.in">Aarvay Labs</a></strong></li>
-      <li><span>Resume</span> <strong><a href="resume.pdf">PDF</a> (or) <a href="resume.html">HTML</a></strong></li>
+      
+      <li><span>Resume</span> <strong><a href="resume.pdf">PDF</a> (or) <a href="resume.tex">TeX</a></strong></li>
       <li><span>Email</span> <strong>vignesh@campuspry.com</strong></li>
       <li>
         <div class="social">
@@ -57,7 +71,7 @@
   <div id="more">      
   </div>
   <div id="footer">
-    <p>Copyright &copy; Vignesh Rajagopalan (1991-present)</p>
+    <p>&copy; Vignesh Rajagopalan | aarvay.in | <small>Last updated on Sept of '11.</small></p>
   </div>    
 </body>
 </html>

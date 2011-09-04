@@ -1,0 +1,173 @@
+%%
+%
+% Aarvay's Resume
+% @author Vignesh Rajagopalan <vignesh@campuspry.com>
+% Last Modified: 4-9-2011
+%
+%%
+
+\documentstyle[hyperref, margin, line]{res}
+\hypersetup{backref, colorlinks=true, backref, urlcolor=blue,}
+
+ \oddsidemargin -.6in
+ \evensidemargin -.6in
+
+ \addtolength{\topmargin}{-.5in}
+ \addtolength{\textheight}{1in}
+
+\textwidth=6.0in \itemsep=0in
+\parsep=0in
+
+\newenvironment{list1}{
+	\begin{list}{\ding{113}}{%
+		\setlength{\itemsep}{0in}
+      	\setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      	\setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      	\setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  	\begin{list}{$\bullet$}{%
+      	\setlength{\itemsep}{0in}
+      	\setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      	\setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+     	\setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+\renewcommand{\namefont}{\Huge\textsf}
+
+\begin{document}
+	\sffamily
+	 \name{Vignesh Rajagopalan \vspace*{.1in}}
+	
+	\begin{resume}
+		\section{\sc Contact Information}
+			\vspace{.05in}
+			\begin{tabular}{@{}p{2in}p{4in}}
+				DF-94, Mega Hostel   & {\it Phone:}  +91 9884 960 659 \\
+				SASTRA University, Thanjavur & {\it E-mail:} \href{mailto:vignesh@campuspry.com}{vignesh@campuspry.com}\\
+				India  & {\it www:} \href{http://aarvay.in}{http://aarvay.in} \\
+			\end{tabular}
+		
+		\section{\sc Areas of \\Interest}
+			\begin{list2}
+				\item[-] Data Structures and Algorithms
+		 		\item[-] Graph Theory
+		 		\item[-] Semantic Web
+		 		\item[-] Machine Learning
+			\end{list2}
+		
+		\section{\sc Education}
+			{\bf \textsf{SASTRA University}}, Thanjavur, India\\
+			\vspace*{-.1in}
+			\begin{list1}
+				\item[] B.Tech., Computer Science and Engineering, 2009 - present.
+			\end{list1}			
+			{\bf \textsf{P. S. Senior Secondary School}}, Chennai, India\\
+			\vspace*{-.1in}
+			\begin{list1}
+				\item[] General Schooling/High School, 1994 - 2009.
+			\end{list1}
+		
+		\section{\sc Achievments}
+			\begin{list2}
+				\item \textbf{\textsf{Winner}} at various Programming events, including technical fests at various universities.
+				\medskip
+				\item Co-Developed Mobile App \emph{Astrologic} - \textbf{\textsf{Top Recommended}} in Nokia OVI Store - \\\textbf{\textsf{90,000+ downloads}} from over 115 countries.
+				\medskip
+				\item \textbf{\textsf{Best Project of the Year '09}} in High School for developing a full fledged chat server that runs on my own protocol.
+				\medskip
+				\item \textbf{\textsf{Ranked No.2}} in \emph{Launch Attack}, an ethical hacking contest conducted by McAfee at NIT Trichy.
+				\medskip
+				\item \textbf{\textsf{Top Finalist}} in Yahoo Open Hack India, 2011.
+			\end{list2}
+		
+		\section{\sc Work \\Experience}
+			{\bf \textsf{FundsIndia Pvt Ltd.}}
+			 
+			 \vspace{-.3cm}
+			{\em Software Engineer Intern} \hfill May, 2011 - Jul, 2011\\
+			Worked on the core online portal. Made it more viral by adding few usecases. 
+			Wrote a Facebook App to socialize the platform and an API to support interactions between the platform and the app. 
+			Wrote a fully customized parser to scrape a source and API(ze) the output into a neat JSON object.
+			
+			{\bf \textsf{AstroLogic}}		
+		 	
+		 	\vspace{-.3cm}
+			{\em Server-Side Engineer} \hfill Dec, 2010 - Feb, 2011\\
+			Took care of the Server-Side scripting and Facebook Application.
+
+		\section{\sc Research \\Experience}
+			\begin{list2}
+				\item R. Vignesh, S. Vidya Sagar, Karthik Prashanth, \emph{Context Analysis from Social Networks: A Robust Method to Identify Permanent and Current Interests} \qquad (unpublished)
+				\medskip
+				\item G. Sanjith, R. Vignesh, \emph{On studying interactions in Online Social Networks} \qquad (unpublished)
+			\end{list2}
+		
+		\section{\sc Personal \\Projects}	
+			\begin{list2}
+				\item \emph{Co-founded} \href{http://campuspry.com} {\textbf{\textsf{Campuspry Labs}}} -- A 100\% hacker-friendly early-stage startup. We work on building awesome products.
+				\medskip
+				\item \emph{Co-developed} \textbf{\textsf{AstroLogic}} -- A reasonably popular Astrology/Horoscope application developed for both J2ME and Facebook Platforms.
+				\begin{list2}
+					\item[-] It became the \emph{Top Recommended} app at the Nokia OVI Store in the first week of it's launch.
+					\item[-] Got over 90,000+ downloads, from 115 countries.
+				\end{list2}
+				\medskip
+				\item \emph{Developed} an \textbf{\textsf{Online Quiz Portal}} for \emph{IBM's Bluebattle}.
+				\begin{list2}
+					\item[-] Includes features like timed snap out, randomizing questions, and grading
+					\item[-] Also optimized for mobile view
+				\end{list2}
+				\medskip
+				\item \emph{Developed} \textbf{\textsf{BlueHat}} -- A full fledged chat server that runs on my \emph{own protocol}.
+				\begin{list2}
+					\item[-] Implemented my own \emph{concurrency handling mechanism} with a \emph{unique buffer management}
+					\item[-] Developed primarily for my high school project, and was awarded the \emph{“Best Project of the Year”}
+					\item[-] It was used by many students at school.
+				\end{list2}
+			\end{list2} 
+
+		 \section{\sc Opensource \\Contributions}
+		 	\begin{list1}
+				\item[] My opensource contributions are available in GitHub -- \href{http://github.com/aarvay} {http://github.com/aarvay}. It includes some of my other small projects.
+			\end{list1}
+				
+		 \section{\sc Co-Curricular \\Activities}
+			\begin{list2}
+				\item An elite member of \textbf{\textsf{GLOSS}} \emph{(GNU Linux \& Open Source Society)} at my university. Roles include co-ordinating, and conducting sessions on various fields in FOSS, including Linux customizations and Hackathons.
+				\medskip
+				\item \emph{Founding member} of the Theoretical Computer Science Club at SASTRA. It aims at encouraging students to paricipate in Programming events and help them with other related theoretical works.
+			\end{list2}
+		
+		\section{\sc Other \\Activities}
+			\begin{list2}
+				\item A recognized \emph{Mrudangam artist} (An Indian Percussion Instrument)
+				\begin{list2}
+					\item[-] Performed in over 300 concerts
+					\item[-] Winner in numerous competitions
+				\end{list2}
+				\medskip
+				\item A self-taught guitar player.
+				\medskip
+				\item A street magician - Performed on various occasions.
+			\end{list2}
+		
+		\section{\sc Skill Set}
+			\begin{list1}
+				\item[] \emph{Programming Languages}
+				\begin{list2}
+					\item[-] C, C++, Java, Visual Basic, J2ME, Pascal, Ruby, Python
+				\end{list2}
+				\item[] \emph{Scripting Languages}
+				\begin{list2}
+					\item[-] BASH
+				\end{list2}
+				\item[] \emph{Web Technologies}
+				\begin{list2}
+					\item[-] HTML, CSS, Javascript, PHP (Zend,Yii), Ruby on Rails, AJAX, jQuery
+				\end{list2}
+				\item[] \emph{DBMS}
+				\begin{list2}
+					\item[-] MySQL, SQLlite, Oracle, SQL Server, NoSQL(MongoDB)
+				\end{list2}
+			\end{list1}
+	\end{resume}
+\end{document}
