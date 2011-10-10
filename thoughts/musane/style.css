@@ -1,0 +1,54 @@
+body {
+	background: url(images/pool_table.png);
+	margin: 0;
+	padding: 0;
+}
+
+#wrap {
+	margin: 0 auto;
+	padding: 0 auto;
+	width: 760px;
+}
+
+#logo h1 {
+	font-family: 'Leckerli One', cursive;
+	font-size: 98px;
+	color: #111111;
+	text-shadow: 0 0 9px 0;
+	text-align: center;
+}
+
+#logo h1 span{
+	font-family: monospace;
+	font-size: 20px;
+}
+
+p {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 35px;
+	text-align: center;
+	color: #000;
+}
+
+p span{
+	font-family: 'Leckerli One', cursive;
+}
+
+p ans{
+	font-size: 18px;
+}
+
+p a{
+	text-decoration: underline;
+	color: #000;
+}
+
+p a:visited{
+	color: #000
+}
+
+#footer {
+	text-align:center; 
+	padding:30px; 
+	font-style: italic;
+}
